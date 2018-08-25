@@ -15,5 +15,6 @@ Edit your config source at
     spring.cloud.config.server.git.uri=https://github.com/langitdsp/config-value
 
 To run this application : mvn spring-boot:run  
-Access the application on http://localhost:8888/config-value/default to get the config value.
+Access the application on http://localhost:8888/config-value/default to get the config value.  
+'config-value' in the URL is the file in git that contain the value.
 
